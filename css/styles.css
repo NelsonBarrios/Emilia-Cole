@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*CONTACTO*/
+
+.menu{
+    overflow: hidden;
+    background-color: rgba(100%, 100%, 100%, 0.5);
+    padding: 10px 0;
+}
+
+.menu ul{
+    float: right;
+    overflow: hidden;
+}
+
+.menu ul li{
+    float: left;
+    border-left: 1px solid black;
+}
+
+.menu ul li:nth-child(1){
+    border-left: none;
+}
+
+.menu ul li a{
+    padding: 0 10px;
+}
+
+.social-media{
+    text-align: right;
+    padding: 10px 0;
+}
+
+.social-media-iconos{
+    padding-right: 10px;
+}
+
+.subtitulo-contacto{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.mapa{
+    padding: 20px 0;
+}
+
+.contactos{
+    color: #2e7b7f;
+    padding: 10px 0;
+}
+
+.info-contacto{
+    padding: 10px 0;
+}
+
+.info-contacto h4 a{
+    color: grey;
+}
+
+/*MUSIC*/
+
+.banner{
+    background-image: url(../img/emilia-music-top.jpg);
+    background-size: cover;
+}
+
+/*HOME*/
+
+.body-home{
+    position: relative;
+    padding: 10px;      
+}
+
+.container{
+    overflow: hidden;
+}
+
+.container1{
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.menu-home{
+    margin: 10px 0;
+    color: grey;
+}
+
+.social-media-home{
+    margin: 10px 0;
+}
+
+.menu-home ul{
+    list-style-type: none;
+}
+
+.menu-home ul li{
+    margin: 10px 0;
+}
+
+#emilia-cole{
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.photo-home{
+    float: right;
+    width: 66%;
+}
+
+.nombre-album{
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(100%, 100%, 100%, 0.5);
+}
+
+/*ABOUT*/
+
+.body-about{
+    position: relative;
+    padding: 10px;
+}
+
+.photo-about{
+    float: right;
+    position: relative;
+}
+
+.menu-about{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+}
+
+.social-media-about{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 40px;
+}
+
+.about-emilia{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.about-emilia h2, .about-emilia h3{
+    color: #2e7b7f;
+}
+
+.about-emilia h2{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.about-emilia h3{
+    margin: 20px 0;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
